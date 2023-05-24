@@ -30,7 +30,7 @@ defmodule AshAdmin.Components.Resource do
 
   def render(assigns) do
     ~F"""
-    <div class="content-center h-screen">
+    <div class="content-center h-screen"         phx-hook="Mermaid">
       <Nav
         resource={@resource}
         api={@api}
